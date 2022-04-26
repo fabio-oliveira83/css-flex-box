@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align Content </title>
+</head>
+<style>
+    body{
+        background-color: white;
+        
+    }
+
+    .container{
+        height: 400px;
+        max-width: 300px;
+        margin: 0;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+    }
+    
+    .item{
+        background-color: blueviolet;
+        padding: 0 5px;
+        flex: 1;
+        text-align: center;
+        color: white;
+        margin: 5px;
+
+    }
+
+    .stretch{
+        align-content: stretch;
+    }
+
+    .center{
+        align-content: center;
+    }
+
+    .flex-start{
+        align-content: flex-start;
+    }
+
+    .flex-end{
+        align-content: flex-end;
+    }
+
+    .space-around{
+        align-content: space-around;
+    }
+
+    .space-between{
+        align-content: space-between;
+    }
+
+</style>
+<body>
+    <h1>Stretch</h1>
+    <div class="container stretch">
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato</div>
+        <div class="item">Lorem Ipsum è un </div>
+        <div class="item">Lorem Ipsum è un testo</div>
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato</div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+    </div>
+
+    <h1>Center</h1>
+    <div class="container center">
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato</div>
+        <div class="item">Lorem Ipsum è un </div>
+        <div class="item">Lorem Ipsum è un testo</div>
+        <div class="item">Lorem Ipsum è un testo segnaposto utfia e della stampa. Lorem Ipsum è considerato</div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+    </div>
+
+    <h1>Flex-Start</h1>
+    <div class="container flex-start">
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato</div>
+        <div class="item">Lorem Ipsum è un </div>
+        <div class="item">Lorem Ipsum è un testo</div>
+        <div class="item">Lorem Ipsum è un testo segnaposto utfia e della stampa. Lorem Ipsum è considerato</div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+    </div>
+
+    <h1>Flex-end</h1>
+    <div class="container flex-end">
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato</div>
+        <div class="item">Lorem Ipsum è un </div>
+        <div class="item">Lorem Ipsum è un testo</div>
+        <div class="item">Lorem Ipsum è un testo segnaposto utfia e della stampa. Lorem Ipsum è considerato</div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+    </div>
+
+    <h1>Space-around</h1>
+    <div class="container space-around">
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato</div>
+        <div class="item">Lorem Ipsum è un </div>
+        <div class="item">Lorem Ipsum è un testo</div>
+        <div class="item">Lorem Ipsum è un testo segnaposto utfia e della stampa. Lorem Ipsum è considerato</div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+    </div>
+
+    <h1>Space-between</h1>
+    <div class="container space-between">
+        <div class="item">Lorem Ipsum è un testo segnaposto utilizzato</div>
+        <div class="item">Lorem Ipsum è un </div>
+        <div class="item">Lorem Ipsum è un testo</div>
+        <div class="item">Lorem Ipsum è un testo segnaposto utfia e della stampa. Lorem Ipsum è considerato</div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+        <div class="item">Lorem Ipsum è un testo </div>
+    </div>
+    
+</body>
+</html>
